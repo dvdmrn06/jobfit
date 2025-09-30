@@ -1,0 +1,6 @@
+requests
+streamlit
+python-dotenv
+openai
+pdfplumber
+gdown
