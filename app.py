@@ -386,8 +386,8 @@ with st.sidebar:
 
 st.title("🔎 Asistente de Búsqueda de Trabajo")
 st.write(
-    "Este asistente analiza tu **CV**y, cuando se lo pidas, "
-    "usa sus herramientas para recuperar ofertas desde un PDF y compararlas con tu perfil. "
+    "Este asistente analiza tu **CV** y, cuando se lo pidas, "
+    "usa sus herramientas para recuperar ofertas de trabajo y compararlas con tu perfil. "
     "No inventa datos: solo usa lo que figura en el CV."
 )
 
