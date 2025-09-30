@@ -13,7 +13,6 @@ from typing import Optional, Tuple, List, Dict
 
 import requests
 import streamlit as st
-from dotenv import load_dotenv
 from openai import OpenAI
 
 import pdfplumber
@@ -38,6 +37,7 @@ try:
     JOBS_PDF_FILE_ID = st.secrets.get("JOBS_PDF_FILE_ID", "")
     JOBS_PDF_URL = st.secrets.get("JOBS_PDF_URL", "")
 except Exception:
+    from dotenv import load_dotenv
     load_dotenv()
     OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
     ASSISTANT_ID = os.environ.get("ASSISTANT_ID", "asst_TOZMVaL9GI3Y5P2zIeL61aeG")
